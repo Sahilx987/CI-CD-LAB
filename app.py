@@ -8,6 +8,10 @@ jobs = [
     {"id": 2, "title": "DevOps Engineer", "status": "interview"}
 ]
 
+@app.route('/')
+def home():
+    return "Version 2 🚀"
+
 @app.route('/health', methods=['GET'])
 def health():
     return jsonify({"status": "ok"})
