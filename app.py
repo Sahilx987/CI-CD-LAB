@@ -14,7 +14,7 @@ def home():
 
 @app.route('/health', methods=['GET'])
 def health():
-    return jsonify({"status": "ok"})
+    return return "Webhook Working 🚀"
 
 @app.route('/jobs', methods=['GET'])
 def get_jobs():
