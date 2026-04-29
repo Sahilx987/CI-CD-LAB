@@ -14,7 +14,7 @@ def home():
 
 @app.route('/health', methods=['GET'])
 def health():
-    return "Webhook Working 🚀"
+    return "Webhook Working 🚀 CI/CD working "
 
 @app.route('/jobs', methods=['GET'])
 def get_jobs():
