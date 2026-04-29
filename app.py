@@ -10,7 +10,7 @@ jobs = [
 
 @app.route('/')
 def home():
-    return "Version 2 🚀"
+    return "Version 2 🚀 test 2"
 
 @app.route('/health', methods=['GET'])
 def health():
